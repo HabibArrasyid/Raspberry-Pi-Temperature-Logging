@@ -1,0 +1,1 @@
+while true;do vcgencmd measure_temp | grep -o '[0-9,.]\+' >> temp.txt && sleep 1 ;done
